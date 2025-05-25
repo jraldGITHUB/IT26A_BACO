@@ -1,0 +1,74 @@
+/* Background and base setup */
+body {
+    background: linear-gradient(135deg, #74ebd5, #9face6); /* Gradient background */
+ 
+   
+}
+
+
+
+/* FORM STYLING */
+form {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  max-width: 500px;
+  margin: 20px auto;
+  font-family: 'Poppins', sans-serif;
+}
+
+form input[type="text"],
+form input[type="number"],
+form input[type="email"],
+form input[type="date"],
+form textarea,
+form select {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0 20px 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+form textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+
+form button {
+  background-color: #1d3557;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form button:hover {
+  background-color: #457b9d;
+}
+
+form a {
+  text-decoration: none;
+  padding: 10px 15px;
+  background-color: #ccc;
+  color: #333;
+  border-radius: 6px;
+  margin-left: 10px;
+  font-size: 16px;
+}
+
+form a:hover {
+  background-color: #bbb;
+}
+
+/* Title styling */
+.container h2 {
+  text-align: center;
+  margin-top: 30px;
+  color: #1d3557;
+}
